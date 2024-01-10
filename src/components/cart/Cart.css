@@ -1,6 +1,5 @@
 .cart {
     width: 264px;
-    /* height: 944px; */
     padding: 25px;
     flex-shrink: 0;
     background-color: rgba(255, 153, 0, 0.30);
@@ -14,7 +13,6 @@
 
 .cart h6 {
     color: #0E161A;
-    /* H6 */
     font-family: Lato;
     font-size: 21px;
     font-style: normal;

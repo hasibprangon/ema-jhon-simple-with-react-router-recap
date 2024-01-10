@@ -9,7 +9,7 @@ const cartProductsLoader = async() => {
     const storedCart = getShoppingCart();
 
     const shavedCart = [];
-    console.log(storedCart);
+    // console.log(storedCart);
     for(const id in storedCart){
         const addedProduct = products.find(pd => pd.id === id);
         if(addedProduct){
@@ -19,7 +19,7 @@ const cartProductsLoader = async() => {
         }
     }
 
-    console.log(products);
+    // console.log(products);
     return shavedCart;
 }
 
