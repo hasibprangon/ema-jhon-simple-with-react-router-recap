@@ -2,7 +2,7 @@ import React from 'react';
 import './ReviewItem.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faTrashAlt } from '@fortawesome/free-solid-svg-icons'
-const ReviewItems = ({ product }) => {
+const ReviewItems = ({ product, handleRemoveFromCart}) => {
     const { id, img, name, price, quantity, shipping } = product;
     return (
         <div className='review-Item'>
@@ -18,7 +18,7 @@ const ReviewItems = ({ product }) => {
                 </div>
             </div>
             <div>
-                <button className='btn-delete'> <FontAwesomeIcon className='delete-icon' icon={faTrashAlt} /></button>
+                <button onClick={() => handleRemoveFromCart(id)} className='btn-delete'> <FontAwesomeIcon className='delete-icon' icon={faTrashAlt} /></button>
             </div>
         </div>
     );
