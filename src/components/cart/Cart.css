@@ -22,3 +22,21 @@
     line-height: normal;
     letter-spacing: 0.032px;
 }
+
+.btn-clearCart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: 15px;
+    background-color: #FF3030;
+    color: #FFF;
+
+    /* H6 */
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.032px;
+}
